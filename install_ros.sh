@@ -13,7 +13,7 @@ echo '
 alias ros="source /opt/ros/noetic/setup.bash"' >> ~/.bashrc
 
 # Install ROS workspace tools
-sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential python3-osrf-pycommon python3-catkin-tools
 
 # Init rosdep
 sudo rosdep init
