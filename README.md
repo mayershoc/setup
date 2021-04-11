@@ -8,7 +8,7 @@ Before installing everything in Ubuntu, make sure to setup your Windows machine 
 3. Install [Windows Subsystem for Linux 2 (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10). Your Linux distribution of choice is **Ubuntu-20.04**.
 
 Optional:
-1. Install [VcXsrv](https://sourceforge.net/projects/vcxsrv/) for programm visualization. After installation, you can run the xserver using [this](config.xlaunch) configuration. When prompted for network access, make sure to allow both, private and public access (TODO: Unsecure. Is there a better way?).
+1. Install [VcXsrv](https://sourceforge.net/projects/vcxsrv/) for programm visualization. After installation, you can run the xserver using [this](config.xlaunch) configuration. When prompted for network access, make sure to block all access and follow [this](https://skeptric.com/wsl2-xserver/) guide for port access.
 2. Install [VS Code for WSL2](https://code.visualstudio.com/blogs/2019/09/03/wsl2) as your code editor. Besides VS Code already being an awesome editor, its integration with WSL2 makes it superior to any other editor.
 3. Install [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/get-started)
 
