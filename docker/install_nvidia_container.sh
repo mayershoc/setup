@@ -12,5 +12,5 @@ sudo apt-get install -y nvidia-docker2
 sudo service docker stop
 sudo service docker start
 
-docker run --gpus all nvcr.io/nvidia/k8s/cuda-sample:nbody nbody -gpu -benchmark
+sudo docker run --gpus all nvcr.io/nvidia/k8s/cuda-sample:nbody nbody -gpu -benchmark
 
