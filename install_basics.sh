@@ -13,5 +13,11 @@ sudo apt install -y baobab
 sudo apt install -y shotwell
 # Remote desktop client
 sudo apt install -y remmina
-
-
+# tmux, terminal multiplexer
+sudo apt install -y tmux
+# python package manager
+sudo apt install -y python3-pip
+# vs code
+sudo snap install --classic code
+# silversearch, command line search tool
+sudo apt install -y silversearcher-ag
