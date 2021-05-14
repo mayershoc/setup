@@ -21,3 +21,5 @@ sudo apt install -y python3-pip
 sudo snap install --classic code
 # silversearch, command line search tool
 sudo apt install -y silversearcher-ag
+# GIF recorder
+sudo apt install -y peek
