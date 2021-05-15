@@ -23,3 +23,5 @@ sudo snap install --classic code
 sudo apt install -y silversearcher-ag
 # GIF recorder
 sudo apt install -y peek
+# Spotify
+sudo snap install spotify
