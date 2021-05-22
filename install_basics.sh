@@ -25,3 +25,5 @@ sudo apt install -y silversearcher-ag
 sudo apt install -y peek
 # Spotify
 sudo snap install spotify
+# Todoist, task manager
+sudo snap install todoist
