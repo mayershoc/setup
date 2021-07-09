@@ -41,3 +41,8 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 # '\W' adds the name of the current directory
 export PS1="$red\u$green\$(__git_ps1)$blue \W
 $ $reset"
+
+
+# ROS
+alias foxy='source /opt/ros/foxy/setup.bash'
+alias noetic='source /opt/ros/noetic/setup.bash'
