@@ -27,3 +27,7 @@ sudo apt install -y peek
 sudo snap install spotify
 # Todoist, task manager
 sudo snap install todoist
+# Balen etcher, formatting tool
+curl -1sLf 'https://dl.cloudsmith.io/public/balena/etcher/setup.deb.sh' | sudo -E bash
+sudo apt update
+sudo apt install balena-etcher-electron
