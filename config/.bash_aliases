@@ -44,7 +44,7 @@ $ $reset"
 
 
 # ROS
-function foxy () { source /opt/ros/foxy/setup.bash; source /usr/share/colcon_cd/function/colcon_cd.sh; export _colcon_cd_root=~/ros2_install; }
+function foxy () { source /opt/ros/foxy/setup.bash; source /usr/share/colcon_cd/function/colcon_cd.sh; export _colcon_cd_root=~/ros2_install; export ROS_DOMAIN_ID=0; }
 alias noetic='source /opt/ros/noetic/setup.bash'
 
 
